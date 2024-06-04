@@ -1,0 +1,46 @@
+
+@email = nero@gmail.com
+
+@name = nervo
+
+@adress=  nerou
+
+
+
+### Listar usuários
+
+
+GET http://localhost:3000/users-module
+
+### Obter usuário
+GET http://localhost:3000/users-module/
+
+
+
+### Criar usuário
+POST http://localhost:3000/users-module
+Content-Type: application/json
+
+{
+    "email": "{{email}}",
+    "name": "{{name}}",
+    
+    
+    "adress":"{{adress}}"
+}
+
+### Atualizar usuário
+PATCH  http://localhost:3000/users-module/970c1ec9-949a-45d8-8f2b-597121200842
+Content-Type: application/json
+
+{
+    
+    "name": "{{name}}"
+   
+
+}
+
+
+
+### Deletar usuário
+DELETE http://localhost:3000/users-module/
