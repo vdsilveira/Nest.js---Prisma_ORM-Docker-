@@ -24,7 +24,7 @@
 
 
 
- # ✅ Backend Nest.js - Integração com Banco de Dados (Prisma + Docker)
+ # ✅ Backend Nest.js - Integração com Banco de Dados via API (Prisma + Docker)
 
 Este projeto demonstra a integração do Nest.js com um banco de dados usando o Prisma_ORM e SQLite.
 
